@@ -104,6 +104,10 @@ namespace _200_OK
                 if (!string.IsNullOrEmpty(accsess))
                 {
                     _operation = new Operation(accsess); // Intiat the Operation class [should do that to intai the accsess token]
+                    Console.WriteLine("Hello Sir, This Is 200-OK Mangement Operation:");
+            Console.WriteLine("1 - Add New Post ID");
+            Console.WriteLine("2 - Delete Operation ID");
+            Console.WriteLine("3 - Gethring Full Data from User");
                     break;
                 }
                 else
@@ -111,12 +115,6 @@ namespace _200_OK
                     Console.WriteLine("Wrong Accsess, Is Null \n Please Try again.");
                 }
             }
-
-
-            Console.WriteLine("Hello Sir, This Is 200-OK Mangement Operation:");
-            Console.WriteLine("1 - Add New Post ID");
-            Console.WriteLine("2 - Delete Operation ID");
-            Console.WriteLine("3 - Gethring Full Data from User");
         }
         static bool DeleteOption()
         {
